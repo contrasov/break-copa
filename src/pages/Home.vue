@@ -17,6 +17,7 @@ const competitors = ref([
     { name: 'Rafael Vale J', victories: 0, defeats: 0, position: 0 },
     { name: 'Paulo Amores', victories: 0, defeats: 0, position: 0 },
     { name: 'Carlos .40', victories: 0, defeats: 0, position: 0 },
+    { name: 'Alvilania', victories: 0, defeats: 0, position: 0 },
 ]);
 
 // Computed property para ordenar competidores por vitórias
