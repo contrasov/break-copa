@@ -9,7 +9,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #161616;
+  background-color: #050505;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -60,6 +60,22 @@ body {
   }
 
   .competitors-list {
-    @apply  list-inside flex flex-row items-center justify-between text-white rounded-tl-2xl rounded-br-2xl bg-[#2E2E2E] px-3 py-2;
+    @apply  list-inside flex flex-row items-center justify-between hover:bg-[#262626]/50 px-3 py-2;
+  }
+
+  .victory {
+    @apply flex flex-row items-center text-sm text-black font-bold px-2 py-1 bg-[#27af75] justify-center gap-2;
+  }
+
+  .defeat {
+    @apply flex flex-row text-sm font-bold px-2 py-1 bg-[#dc3030] justify-center gap-2;
+  }
+
+  .drinks {
+    @apply flex flex-row text-sm font-bold px-2 py-1 bg-[#262626] justify-center gap-2;
+  }
+
+  .date {
+    @apply flex flex-row text-sm font-bold px-2 py-1 bg-[#262626] justify-center gap-2;
   }
 }
